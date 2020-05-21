@@ -61,7 +61,10 @@
 
 	// Scrollax
    $.Scrollax();
+   
+   
 
+   
 	var carousel = function() {
 		$('.carousel-testimony').owlCarousel({
 			center: true,

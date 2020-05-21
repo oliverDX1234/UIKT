@@ -6166,8 +6166,7 @@ button.bg-dark:focus {
   margin-top: 1.5rem !important; }
 
 .mr-4,
-.mx-4 {
-  margin-right: 1.5rem !important; }
+
 
 .mb-4,
 .my-4 {
@@ -6254,7 +6253,7 @@ button.bg-dark:focus {
   padding-left: 0.5rem !important; }
 
 .p-3 {
-  padding: 1rem !important; }
+  padding-top: 1rem !important; }
 
 .pt-3,
 .py-3 {
@@ -7302,7 +7301,6 @@ h1, h2, h3, h4, h5,
 .ftco-navbar-light {
   background: transparent !important;
   position: absolute;
-  top: 20px;
   left: 0;
   right: 0;
   z-index: 3; }
@@ -7370,7 +7368,7 @@ h1, h2, h3, h4, h5,
   .ftco-navbar-light .navbar-nav > .nav-item.cta.cta-colored span {
     border-color: #f9be37; }
   .ftco-navbar-light .navbar-nav > .nav-item.active > a {
-    color: rgba(255, 255, 255, 0.5); }
+    color: rgb(0, 0, 0); }
   .ftco-navbar-light .navbar-toggler {
     border: none;
     color: rgba(255, 255, 255, 0.5) !important;
@@ -7390,6 +7388,8 @@ h1, h2, h3, h4, h5,
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1); }
     .ftco-navbar-light.scrolled .nav-item.active > a {
       color: #f9be37 !important; }
+      .ftco-navbar-light.scrolled .nav-item.active > a {
+        color: black !important; }
     .ftco-navbar-light.scrolled .nav-item.cta > a {
       color: #fff !important;
       background: #f9be37;
@@ -7572,7 +7572,8 @@ h1, h2, h3, h4, h5,
     .owl-carousel .owl-nav .owl-next {
       right: 0; }
   .owl-carousel .owl-dots {
-    text-align: center; }
+    text-align: center;
+    display:none }
     .owl-carousel .owl-dots .owl-dot {
       width: 10px;
       height: 10px;
@@ -7875,7 +7876,7 @@ h1, h2, h3, h4, h5,
     display: block;
     height: 300px; }
   .destination .img-2 {
-    height: 300px; }
+    height: 200px; }
   .destination .icon {
     width: 60px;
     height: 60px;
@@ -7935,7 +7936,7 @@ h1, h2, h3, h4, h5,
           .destination .text .bottom-area span:last-child {
             margin-left: 5px; } }
         .destination .text .bottom-area span:last-child a {
-          background: #08c299;
+          background: #f9be37;
           color: #fff;
           -webkit-border-radius: 4px;
           -moz-border-radius: 4px;
@@ -7943,7 +7944,7 @@ h1, h2, h3, h4, h5,
           border-radius: 4px;
           padding: 3px 5px; }
           .destination .text .bottom-area span:last-child a:hover {
-            background: #08c299;
+            background: #f9be37;
             color: #fff; }
 
 .destination-entry {
@@ -8017,7 +8018,7 @@ h1, h2, h3, h4, h5,
   margin-right: -80px; }
 
 .hotel-img {
-  height: 600px;
+  height: 350px;
   margin-bottom: 2em; }
 
 .hotel-single h2 {
@@ -8026,7 +8027,7 @@ h1, h2, h3, h4, h5,
 
 .hotel-single h4 {
   font-family: "Abril Fatface", cursive;
-  font-size: 28px; }
+  font-size: 21px; }
 
 .hotel-single .loc {
   margin-right: 10px; }
@@ -9450,3 +9451,7 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+  .light-background{
+    background-color:#FEFFBA;
+  }
