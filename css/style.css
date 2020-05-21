@@ -7899,7 +7899,7 @@ h1, h2, h3, h4, h5,
   .destination:hover .icon {
     opacity: 1; }
   .destination .text {
-    background: #fff; }
+    background: white }
     .destination .text h3 {
       font-size: 18px;
       font-weight: 500; }
@@ -8665,7 +8665,7 @@ textarea.form-control {
     color: #fff;
     padding: 2px 8px;
     display: inline-block;
-    background: #08c299;
+    background:#f9be37;
     position: absolute;
     top: -45px;
     left: 0; }
@@ -9457,4 +9457,15 @@ textarea.form-control {
 
   .light-background{
     background-color:#FEFFBA;
+  }
+  
+  .tag{
+    background: #f9be37;
+    color: #fff !important;
+    font-size: 14px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    padding: 3px 5px;
   }
