@@ -1723,7 +1723,9 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
     color: #6c757d; }
 
 .form-check-label {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  padding-left: 17px;
+}
 
 .form-check-inline {
   display: -webkit-inline-box;
@@ -7303,7 +7305,8 @@ h1, h2, h3, h4, h5,
   position: absolute;
   left: 0;
   right: 0;
-  z-index: 3; }
+  z-index: 3; 
+  min-height: 79px !important;}
   @media (max-width: 991.98px) {
     .ftco-navbar-light {
       background: #000000 !important;
