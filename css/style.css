@@ -9474,4 +9474,13 @@ textarea.form-control {
     margin-right: 0;
     margin-left: 0;
     display: none !important; 
+}}
+.min-height-destinations{
+  min-height:141px;
+}
+.min-height-names{
+  min-height:81px;
+}  
+.font-size-destinations{
+  font-size:11px !important;
 }
