@@ -9469,3 +9469,9 @@ textarea.form-control {
     border-radius: 4px;
     padding: 3px 5px;
   }
+  @media (min-width: 768px) and (max-width: 991px){
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: 0;
+    margin-left: 0;
+    display: none !important; 
+}
